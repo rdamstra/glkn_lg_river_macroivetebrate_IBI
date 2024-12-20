@@ -17,7 +17,7 @@
 #Link: https://www.jstor.org/stable/10.1899/10-161.1?item_view=read_online
 
 library(tidyverse)
-#set working directory and import local copy of data downloaded from NPS Data Store
+#set working directory and import local copy of data downloaded from NPS Data Store. May need to change filename of .csv file, in this case it is "glkn_inverts1.csv"
 setwd("C:/Users/rdamstra/OneDrive - DOI/Desktop/GLKN RV WQ Invert R Code")
 i <- read.csv("C:/Users/rdamstra/OneDrive - DOI/Desktop/GLKN RV WQ Invert R Code/glkn_inverts1.csv")
 
