@@ -256,7 +256,7 @@ dup_ibi_calc_metrics <- dup_ibi_calc_metrics %>% select(STATION_ID, YEAR, INSECT
 ######### SCRAPE_P_I ##########
 # < 0.1 = 0
 # 0.1 - 7.4 = 5
-# < 7.4 = 10
+# > 7.4 = 10
 
 ibi_score_parameters <- function(data) {
   data %>% 
